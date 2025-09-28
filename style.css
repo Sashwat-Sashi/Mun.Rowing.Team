@@ -89,3 +89,15 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.img-box {
+  text-align: center;   /* centers the image */
+  margin: 20px 0;
+}
+
+.img-box img {
+  max-width: 100%;      /* responsive – fits inside the container */
+  height: auto;         /* keeps proportions */
+  border-radius: 8px;   /* rounded corners, optional */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* soft shadow */
+}
